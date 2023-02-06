@@ -1,0 +1,28 @@
+.link:hover{
+background-color: rgb(238, 237, 237);
+height: 35px;
+border-radius: 20px;
+}
+.select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.divider{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    
+}
+@media screen and (max-width:626px) {
+    .link{
+        display: none;
+    }
+}
